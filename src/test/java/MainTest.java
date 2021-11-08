@@ -3,10 +3,10 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class MainTest {
+public class MainTest {
 
     @Test
-    void testIncrement() {
+    public void testIncrement() {
         Main main = new Main();
 
         int result = main.increment(6);
